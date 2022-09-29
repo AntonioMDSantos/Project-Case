@@ -1,0 +1,17 @@
+{
+    "--primary-button-color": "#00C7BA",
+    "--primary-button-hover-color": "rgba(0, 199, 186, 0.75)",
+    "--primary-button-active-color": "#07A196",
+    "--primary-button-font-color": "#39424E",
+    "--primary-button-font-hover-color": "#183561",
+    "--primary-button-shadow": "0px 4px 4px rgba(0, 0, 0, 0.2)",
+    "--secondary-button-color": "#39424E",
+    "--secondary-button-hover-color": "rgba(57, 66, 78, 0.75)",
+    "--secondary-button-active-color": "#28303C",
+    "--secondary-button-font-color": "#fff",
+    "--secondary-button-font-hover-color": "#fff",
+    "--secondary-button-shadow": "0px 4px 4px rgba(0, 0, 0, 0.2)",
+    "--default-button-radius": "6px",
+    "--default-button-height": "44px",
+    "--default-button-transition": ".4s"
+}

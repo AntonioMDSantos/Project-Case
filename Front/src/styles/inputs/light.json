@@ -1,0 +1,17 @@
+{
+    "--primary-input-color": "#F5F5F5",
+    "--primary-input-hover-color": "#F5F5F5",
+    "--primary-input-border": "1px solid #B9B9B9",
+    "--primary-input-border-hover": " 1px solid #2D3038",
+    "--primary-input-font-color": "#000000",
+    "--primary-input-placeholder-color": "#9C9C9C",
+    "--secondary-input-color": "transparent",
+    "--secondary-input-hover-color": "#00C7BA",
+    "--secondary-input-border": "1px solid #00C7BA",
+    "--secondary-input-border-hover": "none",
+    "--secondary-input-font-color": "#00C7BA",
+    "--secondary-input-font-hover-color": "#fff",
+    "--secondary-input-placeholder-color": "#00C7BA",
+    "--default-input-radius": "6px",
+    "--default-input-transition": ".4s"
+}

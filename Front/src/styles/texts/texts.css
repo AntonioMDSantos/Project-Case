@@ -1,0 +1,65 @@
+.main-title {
+  font-weight: var(--main-title-weight) !important;
+  font-size: var(--main-title-size) !important;
+  color: var(--main-title-color) !important;
+}
+
+.main-description {
+  font-weight: var(--main-description-weight) !important;
+  font-size: var(--main-description-size) !important;
+  color: var(--main-description-color) !important;
+}
+
+.navigation-title {
+  font-weight: var(--navigation-title-weight) !important;
+  font-size: var(--navigation-title-size) !important;
+  color: var(--navigation-title-color) !important;
+}
+
+.navigation-description {
+  font-weight: var(--navigation-description-weight) !important;
+  font-size: var(--navigation-description-size) !important;
+  color: var(--navigation-description-color) !important;
+}
+
+.navigation-item {
+  font-weight: var(--navigation-item-weight) !important;
+  font-size: var(--navigation-item-size) !important;
+  color: var(--navigation-item-color) !important;
+}
+
+.label {
+  font-weight: var(--label-weight) !important;
+  font-size: var(--label-size) !important;
+  color: var(--label-color) !important;
+}
+
+.label-bold {
+  font-weight: var(--label-bold-weight) !important;
+  font-size: var(--label-bold-size) !important;
+  color: var(--label-bold-color) !important;
+}
+
+.label-with-color {
+  font-weight: var(--label-with-color-weight) !important;
+  font-size: var(--label-with-color-size) !important;
+  color: var(--label-with-color-color) !important;
+}
+
+.tab-label {
+  font-weight: var(--tab-label-weight) !important;
+  font-size: var(--tab-label-size) !important;
+  color: var(--tab-label-color) !important;
+}
+
+.tab-active-label {
+  font-weight: var(--tab-active-label-weight) !important;
+  font-size: var(--tab-active-label-size) !important;
+  color: var(--tab-active-label-color) !important;
+}
+
+.label-bold-grey {
+  font-weight: var(--label-bold-grey-weight) !important;
+  font-size: var(--label-bold-grey-size) !important;
+  color: var(--label-bold-grey-color) !important;
+}

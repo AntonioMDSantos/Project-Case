@@ -1,0 +1,86 @@
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type='time']::-webkit-inner-spin-button,
+input[type='time']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* primary-input */
+.primary-input {
+  border-radius: var(--default-input-radius) !important;
+  transition: var(--default-input-transition) !important;
+}
+
+.primary-input .theme--light.v-icon {
+  color: var(--secondary-input-font-color) !important;
+}
+
+.primary-input:hover .theme--light.v-icon {
+  color: var(--primary-input-placeholder-color) !important;
+}
+
+.primary-input fieldset {
+  background-color: var(--primary-input-color);
+  transition: var(--default-input-transition) !important;
+  border: var(--primary-input-border) !important;
+}
+
+.primary-input input::placeholder {
+  color: var(--primary-input-placeholder-color) !important;
+}
+
+.primary-input:hover fieldset {
+  box-shadow: var(--primary-input-shadow-hover) !important;
+  border: var(--primary-input-border-hover) !important;
+}
+
+.primary-input .v-text-field--outlined.v-input--is-focused fieldset,
+.v-text-field--outlined.v-input--has-state fieldset {
+  border: 1px solid #eb5454 !important;
+}
+
+/* secondary-input */
+.secondary-input {
+  border-radius: var(--default-input-radius) !important;
+}
+
+.secondary-input .theme--light.v-icon {
+  color: var(--secondary-input-font-color) !important;
+}
+
+.secondary-input:hover .theme--light.v-icon {
+  color: var(--secondary-input-font-hover-color) !important;
+}
+
+.secondary-input:hover input {
+  color: var(--secondary-input-font-hover-color) !important;
+}
+
+.secondary-input fieldset {
+  background: var(--secondary-input-color);
+  transition: var(--default-input-transition) !important;
+  border: var(--secondary-input-border) !important;
+}
+
+.secondary-input input {
+  color: var(--secondary-input-font-color) !important;
+}
+
+.secondary-input input::placeholder {
+  color: var(--secondary-input-placeholder-color) !important;
+}
+
+.secondary-input:hover input::placeholder {
+  color: var(--secondary-input-font-hover-color) !important;
+}
+
+.secondary-input:hover fieldset {
+  color: var(--secondary-input-font-hover-color) !important;
+  background: var(--secondary-input-hover-color) !important;
+  box-shadow: var(--secondary-input-shadow-hover) !important;
+}

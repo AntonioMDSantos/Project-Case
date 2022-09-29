@@ -1,0 +1,63 @@
+/* primary-button */
+.primary-button {
+  color: var(--primary-button-font-color) !important;
+  background: var(--primary-button-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+  transition: var(--default-button-transition) !important;
+  height: var(--default-button-height) !important;
+}
+
+.primary-button:hover {
+  background: var(--primary-button-hover-color) !important;
+  background: var(--primary-button-hover-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--primary-button-shadow) !important;
+}
+
+.primary-button::before {
+  color: var(--primary-button-font-color) !important;
+  background: var(--primary-button-hover-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--primary-button-shadow) !important;
+}
+
+.primary-button:active {
+  color: var(--primary-button-font-color) !important;
+  background: var(--primary-button-active-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--primary-button-shadow) !important;
+}
+
+/* secondary-button */
+.secondary-button {
+  color: var(--secondary-button-font-color) !important;
+  background: var(--secondary-button-color) !important;
+  text-transform: none !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: none !important;
+  transition: var(--default-button-transition) !important;
+  height: var(--default-button-height) !important;
+}
+
+.secondary-button:hover {
+  color: var(--secondary-button-font-color) !important;
+  background: var(--secondary-button-hover-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--secondary-button-shadow) !important;
+}
+
+.secondary-button::before {
+  color: var(--secondary-button-font-hover-color) !important;
+  background: var(--secondary-button-hover-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--secondary-button-shadow) !important;
+}
+
+.secondary-button:active {
+  color: var(--secondary-button-font-hover-color) !important;
+  background: var(--secondary-button-active-color) !important;
+  border-radius: var(--default-button-radius) !important;
+  box-shadow: var(--secondary-button-shadow) !important;
+}

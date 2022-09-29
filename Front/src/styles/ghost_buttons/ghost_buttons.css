@@ -1,0 +1,67 @@
+/* primary-ghost-button */
+.primary-ghost-button {
+  color: var(--primary-ghost-button-font-color) !important;
+  background: transparent !important;
+  border: var(--primary-ghost-button-border) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+  transition: var(--default-ghost-button-transition) !important;
+  height: var(--default-ghost-button-height) !important;
+}
+
+.primary-ghost-button:hover {
+  color: var(--primary-ghost-button-font-hover-color) !important;
+  border: none !important;
+  background: var(--primary-ghost-button-hover-color) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--primary-ghost-button-shadow) !important;
+}
+
+.primary-ghost-button::before {
+  color: var(--primary-ghost-button-font-hover-color) !important;
+  background: var(--primary-ghost-button-hover-color) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--primary-ghost-button-shadow) !important;
+}
+
+.primary-ghost-button:active {
+  color: var(--primary-ghost-button-font-hover-color) !important;
+  background: var(--primary-ghost-button-active-color) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--primary-ghost-button-shadow) !important;
+}
+
+/* secondary-ghost-button */
+.secondary-ghost-button {
+  color: var(--secondary-ghost-button-font-color) !important;
+  background: transparent !important;
+  border: var(--secondary-ghost-button-border) !important;
+  text-transform: none !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: none !important;
+  transition: var(--default-ghost-button-transition) !important;
+  height: var(--default-ghost-button-height) !important;
+}
+
+.secondary-ghost-button:hover {
+  color: var(--secondary-ghost-button-font-hover-color) !important;
+  background: var(--secondary-ghost-button-color) !important;
+  border: none !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--secondary-ghost-button-shadow) !important;
+}
+
+.secondary-ghost-button::before {
+  color: var(--secondary-ghost-button-font-hover-color) !important;
+  background: var(--secondary-ghost-button-color) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--secondary-ghost-button-shadow) !important;
+}
+
+.secondary-ghost-button:active {
+  color: var(--secondary-ghost-button-font-hover-color) !important;
+  background: var(--secondary-ghost-button-active-color) !important;
+  border-radius: var(--default-ghost-button-radius) !important;
+  box-shadow: var(--secondary-ghost-button-shadow) !important;
+}
